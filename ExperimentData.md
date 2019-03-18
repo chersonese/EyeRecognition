@@ -62,7 +62,7 @@ u:uniform
 |        162n66,4096         | 0.1690307328605201  |           0.095238           |           0.257812           |
 
 #HOG:
-| orientations,pixels_per_cells, cells_per_block,dimensions of feature |  total error rate   | positive sample’s error rate | negative sample's error rate |
+| orientations,pixels per cells,cells per block,dimensions of feature |  total error rate   | positive sample’s error rate | negative sample's error rate |
 | :----------------------------------------------------------: | :-----------------: | :--------------------------: | :--------------------------: |
 |                      18,2\*2,2\*2,8712                       | 0.05319148936170213 |           0.049784           |           0.057292           |
 |                      12,2\*2,2\*2,5808                       | 0.05200945626477541 |           0.054113           |           0.049479           |
