@@ -24,6 +24,10 @@ def calHistogram(ImgLBPope,maskx=4,masky=4):
     return exHistograms
 
 method=['default','ror','uniform','nri_uniform']
+# 'default':original local binary pattern which is gray scale but not rotation invariant.
+# 'ror':extension of default implementation which is gray scale and rotation invariant.
+# 'uniform':improved rotation invariance with uniform patterns and finer quantization of the angular space which is gray scale and rotation invariant.
+# 'nri_uniform':non rotation-invariant uniform patterns variant which is only gray scale invariant
 def loadImgFeaturesAndLabels(dir,p=8,r=2,x=8,y=8,m=0):
     allDoc = os.listdir(dir)
     features = []
